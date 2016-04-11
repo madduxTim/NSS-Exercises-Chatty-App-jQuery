@@ -1,0 +1,61 @@
+body {
+  padding-top: 5%;
+  margin: 0 auto;
+  width: 960px;
+}
+
+.navbar {
+  background-color: lightgray;
+}
+
+#clear{
+  margin-top: 2.4%;
+}
+
+.logo {
+  width: 20%;
+  height: auto;
+}
+
+#ack{
+  width: 300px;
+}
+
+#messageBox {
+  margin-top: 0%;
+  padding-top: 0%;
+  max-height: 700px;
+  overflow: auto;
+  border: 1px solid black;
+}
+
+.msg {
+  width: 70%;
+  height: auto;
+  padding: 1%;
+  margin: 2.5% 0 2.5% 5%;
+  font-size: 1em;
+  border-radius: 10%;
+  font-family: comic sans ms;
+  background-color: AntiqueWhite;
+  border: 2px dotted black;
+}
+
+.delete {
+  float: right;
+}
+
+footer {
+  margin-top: 2%;
+  border-top: 2px solid lightgray;
+}
+
+/*buttons large and dark*/
+.dark {
+  color: purple;
+  background-color: darkgrey;
+}
+
+.large {
+  font-size: 24px;
+}

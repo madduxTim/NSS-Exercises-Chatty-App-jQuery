@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chatty Cathy - Ack!</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div id="container">
+    <nav class="navbar navbar-fixed-top">
+      <div class="navbar-header">
+          <img src="img/logo.jpg" class="navbar-brand logo">
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Shoes! Chocolate! Aack!" id="ack">
+        </div>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="btn btn-default" id="clear">Clear Board</li>
+        <li><input type="checkbox" id="dark">Dark Theme</li>
+        <li><input type="checkbox" id="large">Large Text</li>
+      </ul>
+    </nav>  
+    <h3>Messages</h3>
+    <div id="messageBox">
+    </div> <!--End messageBox Div-->
+    </div> <!--End Container Div-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <footer>Copyright 2016 Team Chatty Cathy (Gayla Tim David)</footer>
+    <script src="chatty.js"></script> 
+    <script src="newMsg.js"></script> 
+    <script src="removeMsgs.js"></script> 
+    <script src="test.js"></script> 
+  </body>
+</html>
