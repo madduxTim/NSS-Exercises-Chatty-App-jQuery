@@ -14,3 +14,12 @@ var Chatty = (function () {
     }
   }
  }());   
+
+$(document).ready(function() {
+  $("#dark").click(function() {
+    $("#messageBox").toggleClass("dark");
+  });
+  $("#large").click(function() {
+    $("#messageBox").toggleClass("large");
+  });
+});
