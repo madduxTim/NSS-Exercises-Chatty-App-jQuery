@@ -15,7 +15,7 @@ Practice exercise as part of work with Nashville Software School. Learning to bu
 - jQuery
 
 ##Screenshot
-![Finished producted:]()
+![Finished producted:](https://raw.githubusercontent.com/madduxTim/Personal-Chatty-App-jQuery/master/screenshot/Screen%20Shot%202016-04-14%20at%203.22.18%20PM.png)
 
 ## How to run: 
 
