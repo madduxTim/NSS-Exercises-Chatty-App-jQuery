@@ -3,21 +3,19 @@
 var Chatty = (function(originalChatty) { 
     originalChatty.addDeleteBtns = function() {
         originalChatty.clearBtn();    
-        document.querySelector("body").addEventListener("click", function(event) {
-        if (event.target.className === "btn btn-default btn-xs delete") {
-            event.target.parentNode.parentNode.removeChild(event.target.parentNode);
+        $(".delete").click(function(event) {
+            $(this.parentNode.remove(this));
             originalChatty.clearCheck();   
-        }
-        });
+        })
     },
     originalChatty.clearCheck = function() {
-        if (document.getElementById("messageBox").innerHTML === "") {
-            document.getElementById("clear").setAttribute("disabled", true);
+        if ($("#messageBox").html() === "") {
+            $("#clear").attr("disabled", true);
         };
     },
     originalChatty.clearBtn = function () { 
-        document.getElementById("clear").addEventListener("click", function () {
-            document.getElementById("messageBox").innerHTML = "";
+        $("#clear").click(function () {
+            $("#messageBox").html("");
             originalChatty.clearCheck();    
         });
     }

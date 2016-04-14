@@ -14,6 +14,9 @@ Practice exercise as part of work with Nashville Software School. Learning to bu
 
 - jQuery
 
+##Screenshot
+()
+
 ## How to run: 
 
 ```
@@ -24,5 +27,5 @@ This will show at:
 `
 
 ##Contributors
-![David Cramb](https://github.com/davidcramb)
-![Gayla Hall](https://github.com/GAylabea)
+[David Cramb](https://github.com/davidcramb)
+[Gayla Hall](https://github.com/GAylabea)
